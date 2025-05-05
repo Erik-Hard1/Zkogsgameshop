@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: rgb(251, 251, 251);
+}
+
+
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h2{
+    text-align: center;
+    font-family: sans-serif;
+}
+
+footer {
+    background-color: rgb(105, 204, 105);
+    height: 10vw;
+    margin-top: 20px;
+    border-radius: 0px 0px 5px 5px;
+}
+
+header {
+    display: flex;
+    background-color: white;
+    border-bottom: 1px solid black;
+    height: 10vh;
+    position: sticky;
+    top: 0;
+    align-items: center;
+}
+
+
+
+.item-img {
+    height: 60%
+}
+
+.coolbutton {
+    width: 45vw;
+    height: 20vw;
+    background-color: rgb(143, 213, 143);
+    margin-top: 2.5vw;
+    border-radius: 3px;
+}
+
+.nintendo {
+    background-color: #e7000a;
+}
+
+.playstation {
+    background-color: #1355e1;
+}
+
+.xbox {
+    background-color: #47B31B;
+}
+
+.sega {
+    background-color: #116DB0;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.logo {
+    height: 80%;
+}
+
+.item {
+    background-color: white;
+    width: 35vw;
+    height: 30vw;
+    border-radius: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    margin-top: 10px;
+    margin-left: 10vw;
+}
+
+.items {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
+
+.item-head {
+    background-color: rgb(66, 177, 66);
+    height: 10%;
+    border-radius: 15px 15px 1px 1px;
+}
+
+.item-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+article {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+
+.item-name {
+    display: grid;
+    grid-template-columns: 7fr 3fr;
+
+}
+
+
+
+@media (min-width: 992px){
+    .buttons{
+        display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    }
+    .coolbutton{
+        width: 20vw;
+
+    }
+    
+}
+
+
+
+@media (max-width: 600px) {
+    * {
+        margin: 0;
+    }
+
+    body {
+        background-color: rgb(251, 251, 251);
+    }
+
+
+    h1 {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    footer {
+        background-color: rgb(105, 204, 105);
+        height: 30vw;
+        margin-top: 20px;
+        border-radius: 0px 0px 5px 5px;
+    }
+
+    header {
+        display: flex;
+        background-color: white;
+        border-bottom: 1px solid black;
+        height: 20vw;
+        position: sticky;
+        top: 0;
+        align-items: center;
+    }
+
+    .items {
+        display: blocks;
+
+    }
+
+    .item-img {
+        height: 80%
+    }
+
+    .coolbutton {
+        width: 45vw;
+        height: 20vw;
+        background-color: rgb(143, 213, 143);
+        margin-top: 2.5vw;
+        border-radius: 3px;
+    }
+
+    .nintendo {
+        background-color: #e7000a;
+    }
+
+    .playstation {
+        background-color: #1355e1;
+    }
+
+    .xbox {
+        background-color: #47B31B;
+    }
+
+    .sega {
+        background-color: #116DB0;
+    }
+
+    .buttons {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .logo {
+        height: 80%;
+    }
+
+    .item {
+        background-color: white;
+        width: 80vw;
+        height: 65vw;
+        border-radius: 15px;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        margin-top: 10px;
+        margin-left: 10vw;
+    }
+
+    .item-head {
+        background-color: rgb(66, 177, 66);
+        height: 10%;
+        border-radius: 15px 15px 1px 1px;
+    }
+
+    .item-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    article {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-evenlys;
+    }
+
+    .item-name {
+        display: grid;
+        grid-template-columns: 7fr 3fr;
+
+    }
+
+}
